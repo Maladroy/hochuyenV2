@@ -8,6 +8,17 @@
 		"https://biomejs.dev/schemas/2.2.4/schema.json": true,
 		"https://ui.shadcn.com/schema.json": true
 	},
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": false,
+		"**/.hg": false,
+		"**/.DS_Store": false,
+		"**/Thumbs.db": false,
+		"**/.*": false
+	},
+	"files.associations": {
+		"./settings.json": "jsonc"
+	},
 	"files.watcherExclude": {
 		"**/routeTree.gen.ts": true
 	},
@@ -40,5 +51,76 @@
 	},
 	"editor.codeActionsOnSave": {
 		"source.organizeImports.biome": "explicit"
-	}
+	},
+	"cSpell.words": ["Khóa", "Zalo"],
+	"cSpell.ignoreRegExpList": [
+		"/['\"`].*?['\"`]/g",
+		"/import\\s+.*\\s+from\\s+['\"].*['\"]/g",
+		"/className={[^}]*}/g",
+		"/style={{[^}]*}}/g",
+		"/value={[^}]*}/g",
+		"/value=\"[^\"]*\"/g",
+		"/<svg[\\s\\S]*?<\\/svg>/g",
+		"/^\\s*d=\".*\"/g",
+		"/(?:#|0x)[a-fA-F0-9]{3,8}/g",
+		"/(?:https?|ftp):\\/\\/[\\w/\\-?=%.&#~+!]+(?::\\d+)?/g"
+	],
+	"cSpell.language": "en,vi",
+	"better-comments.multilineComments": true,
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "fixme",
+			"color": "#EED202",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": false
+		}
+	]
 }
